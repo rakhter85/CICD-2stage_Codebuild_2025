@@ -6,7 +6,7 @@ phases:
       - echo Installing Python 3.9
     runtime-versions: 
       python: 3.9 # it will install python 3.9
-  pre-build:
+  pre_build:
     commands:
       - echo We are entering the prebuild phase
       - echo Checking the python version installed
